@@ -4,18 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/about.css">
+    <link rel="stylesheet" type="text/css" href="/css/services.css">
+    <link rel="stylesheet" type="text/css" href="/css/application.css">
+    <link rel="stylesheet" type="text/css" href="/css/certificate.css">
 </head>
 <body>
-    <header>
-        <h1>Team Template</h1>
+    <header id="header" class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a class="header-title" href="#">ESTETICLAB</a>
+            </div>
+            <ul class="links">
+                <li><a href="About">About</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="Application">Application</a></li>
+                <li><a href="Certificate">Certificate</a></li>
+                <li><a href="Conatacts">Contacts</a></li>
+            </ul>
+            <a href="#" class="action_btn">Get started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="About">About</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Application">Application</a></li>
+            <li><a href="Certificates">Certificate</a></li>
+            <li><a href="Conatacts">Contacts</a></li>
+            <li><a href="#" class="action_btn">Get started</a></li>
+        </div>
+
+       <div class="main-container">
+            <p class="header-undertitle">
+                CLINIC OF <br> AESTHETIC <br> COSMETOLOGY
+            </p>
+            <p class="header-undertitle2">
+                All necessary beauty services in one place.
+                Lacer hair removal, cosmetology, hairdressing services, massages and figure correction.
+            </p>
+            <img class="headerimg" src="/img/headerimg.jpg" alt="headergirl">
+            <p class="header-services">Services</p>
+       </div>
     </header>
     <main>
+        <section id="About" class="about">
+            <div class="about-container">
+                <h2 class="about-title">ABOUT US</h2>
+                <p class="about-undertitle">We effectively and safely help to cope with age-related skin
+                    changes,hyperpigmentation, acne and post-acne.</p>
+                <p class="about-undertitle au2">We create and maintain slimless, elasticity of the skin without cellulite,
+                    unwanted hair and other external defects. </p>
+                <img class="aboutimg" src="/img/aboutimg.jpg" alt="imgabout">
+                <div class="about-numbercontainer">
+                    <p class="about-number1"> 3900+ <br> Patients</p>
+                    <p class="about-number2"> 5000+ <br> Provided services</p>
+                    <p class="about-number3"> 50 <br> Doctors</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="Services" class="services">
+            <div class="services-maincontainer">
+                <div class="cosmetology-container">
+                    <div class="services-text-container">
+                    <h1 class="cosmetology-title">COSMETOLOGY</h1>
+                    <p class="cosmetology-undertitle">Comprehensive programs for cleaning, rejuvenating and restoring facial skin.</p>
+                    <div class="arrow-right"></div>
+                    </div>
+                    <img class="cosmetologyimg servicesimg" src="/img/cosmetologyimg.jpg" alt="cosmetology">
+                </div>
+                <div class="laser-container">
+                    <div class="services-text-container">
+                    <h1 class="laser-title">LASER EPILATION</h1>
+                    <p class="laser-undertitle">an effective method of radical hair removal with the clestruction
+                         of hair follicles using laser tadiation.</p>
+                    <div class="arrow-rightcolor"></div>
+                    </div>
+                    <img class="laserimg servicesimg" src="/img/laserimg.jpg" alt="laser">
+                </div>
+                <div class="hairdresser-container">
+                    <div class="services-text-container">
+                    <h1 class="hairdresser-title">HAIRDRESSING</h1>
+                    <p class="hairdresser-undertitle">We provide all kinds of hair care services: hair-cutting, colouring, 
+                        styling and waxing.</p>
+                    <div class="arrow-right"></div>
+                    </div>
+                    <img class="hairdresserimg servicesimg" src="/img/hairdresserimg.jpg" alt="hairdresser">
+                </div>
+                <div class="massage-container">
+                    <div class="services-text-container">
+                    <h1 class="massage-title">MASSAGES</h1>
+                    <p class="massage-undertitle">We offer more than 15 types of massage: general, face,
+                         stone, rehabilitation and anti-stress massages.</p>
+                    <div class="arrow-rightcolor"></div>
+                    </div>
+                    <img class="massageimg servicesimg" src="/img/massageimg.jpg" alt="massage">
+                </div>
+            </div>
+        </section>
+
+        <section id="Application" class="application">
+            <div class="application-maincontainer">
+                <img class="application-img" src="/img/aplicationimg.jpg" alt="image">
+                <div class="application-textcontainer">
+                    <h1 class="application-title">LEAVE YOUR APPLICATION</h1>
+                    <form class="application-form">
+                        <label class="label-name" for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        
+                        <label class="label-phone" for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone"><br><br>
+                        
+                        <label class="label-email" for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        
+                        <input  type="submit" class="input-submit" value="Submit Application">
+                      </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="Certificates" class="certificates">
+            <div class="certificates-maincontainer">
+                <h1 class="certificates-title">YOU CAN ORDER GIFT CERTIFICATES</h1>
+                <p class="certificates-undertitle">We appreciate your time. Because we know how
+                    difficult it is to set aside a few hours for self care.
+                </p>
+                <p class="certifficate-get">Get certifficate</p>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 </html>
+

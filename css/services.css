@@ -1,0 +1,95 @@
+.services-maincontainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.cosmetology-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+.laser-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3EEE7;
+    color: #6c8a96;
+    padding: 20px;
+    align-items: center;
+}
+.hairdresser-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+.massage-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3EEE7;
+    color: #6c8a96;
+    padding: 20px;
+    align-items: center;
+}
+.services-text-container {
+    display: flex;
+    flex-direction: column;
+}
+.servicesimg {
+    width: 40%;
+    height: auto;
+    clip-path: ellipse(40% 50% at 50% 50%);
+    transform: rotate(13deg);
+}
+.cosmetology-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.laser-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.hairdresser-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.massage-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.cosmetology-undertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.laser-undertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.hairdresser-undertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.massage-undertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
+    transform: rotate(45deg);
+    margin: 30px 0px 0px 15px;
+}
+.arrow-rightcolor {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #6c8a96;
+    transform: rotate(45deg);
+    margin: 30px 0px 0px 15px;
+}  

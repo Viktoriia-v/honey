@@ -1,0 +1,52 @@
+.about {
+    background-color: #F3EEE7;
+    color: #6c8a96;;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.about-numbercontainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.about-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    margin: 35px 0px;
+}
+.about-undertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0px 20px;
+}
+.au2 {
+    margin-top: 25px;
+}
+.aboutimg {
+    width: 80%;
+    clip-path: ellipse(40% 50% at 50% 50%);
+    margin: 25px 0px;
+}
+.about-number1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.about-number2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-number3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
