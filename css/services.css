@@ -1,95 +1,78 @@
-.services-maincontainer {
+.our-services {
+    box-sizing: border-box;
+    width: 100%;
+}
+.title h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+}
+.title h1::after {
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+.services {
+    width: 85%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
-    row-gap: 10px;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
 }
-.cosmetology-container {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    padding: 20px;
-    align-items: center;
+.card:hover {
+    background-color: #b8d4de;
+    transition: 1s ease-in-out;
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out;
 }
-.laser-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #F3EEE7;
-    color: #6c8a96;
-    padding: 20px;
-    align-items: center;
+.icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease;
 }
-.hairdresser-container {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    padding: 20px;
-    align-items: center;
+.card:hover .icon {
+    background-color: #b8d4de;
+    color: #ffff;
+    border-color: #b8d4de;
 }
-.massage-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #F3EEE7;
-    color: #6c8a96;
-    padding: 20px;
-    align-items: center;
-}
-.services-text-container {
-    display: flex;
-    flex-direction: column;
-}
-.servicesimg {
-    width: 40%;
-    height: auto;
-    clip-path: ellipse(40% 50% at 50% 50%);
-    transform: rotate(13deg);
-}
-.cosmetology-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-}
-.laser-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-}
-.hairdresser-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-}
-.massage-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-}
-.cosmetology-undertitle {
+.card h2 {
+    font-size: 28px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    color: #c94f4f;
+    margin-bottom: 20px;
 }
-.laser-undertitle {
+.card p {
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #5e5e5e;
 }
-.hairdresser-undertitle {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+@media screen and (max-width: 940px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 85%;
+        display: flex;
+        margin: 20px 0;
+    }
 }
-.massage-undertitle {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-}
-.arrow-right {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid white;
-    transform: rotate(45deg);
-    margin: 30px 0px 0px 15px;
-}
-.arrow-rightcolor {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid #6c8a96;
-    transform: rotate(45deg);
-    margin: 30px 0px 0px 15px;
-}  
