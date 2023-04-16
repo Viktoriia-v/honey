@@ -7,6 +7,7 @@
     flex-direction: column;
     row-gap: 10px;
     align-items: center;
+    text-align: center;
 }
 .about-numbercontainer {
     display: flex;
@@ -20,6 +21,17 @@
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     margin: 35px 0px;
+    text-align: center;
+    padding: 30px;
+}
+.about-title::after {
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #6c8a96;
+    display: block;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 .about-undertitle {
     font-family: 'Montserrat', sans-serif;
@@ -49,4 +61,54 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
+}
+
+@media (min-width: 601px) and (max-width: 840px) {
+    .aboutimg {
+        width: 60%;
+    }
+}
+@media (min-width: 841px) {
+    .aboutimg {
+        width: 60%;
+    }
+    .about-secondcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-undertitle {
+        font-size: 18px;
+    }
+    .about-numbercontainer {
+        column-gap: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .about-number1 {
+        font-size: 18px;
+    }
+    .about-number2 {
+        font-size: 18px;
+    }
+    .about-number3 {
+        font-size: 18px;
+    }
+    .about-title {
+        font-size: 48px;
+    }
+    .about-numbercontainer {
+        column-gap: 180px;
+    }
+    .aboutimg {
+        width: 25%;
+    }
+    .about-text-container {
+        padding: 100px;
+    }
 }
