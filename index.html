@@ -9,6 +9,11 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
@@ -27,11 +32,11 @@
                 <h1 class="header-title">ESTETICLAB</h1>
             </div>
             <ul class="links">
-                <li><a href="About">About</a></li>
-                <li><a href="Services">Services</a></li>
-                <li><a href="Application">Application</a></li>
-                <li><a href="Certificate">Certificate</a></li>
-                <li><a href="Conatacts">Contacts</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Application</a></li>
+                <li><a href="#">Certificate</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -47,6 +52,7 @@
         </div>
 
        <div class="main-container">
+        <div class="header-text-container">
             <p class="header-undertitle">
                 CLINIC OF <br> AESTHETIC <br> COSMETOLOGY
             </p>
@@ -54,8 +60,8 @@
                 All necessary beauty services in one place.
                 Lacer hair removal, cosmetology, hairdressing services, massages and figure correction.
             </p>
+        </div>
             <img class="headerimg" src="/img/headerimg.jpg" alt="headergirl">
-            <p class="header-services">Services</p>
        </div>
     </header>
     <main>
@@ -119,34 +125,48 @@
         </section>
 
         <section id="Application" class="application">
-            <div class="application-maincontainer">
-                <img class="application-img" src="/img/aplicationimg.jpg" alt="image">
-                <div class="application-textcontainer">
-                    <h1 class="application-title">LEAVE YOUR APPLICATION</h1>
-                    <form class="application-form">
-                        <label class="label-name" for="name">Name:</label>
-                        <input type="text" id="name" name="name"><br><br>
-                        
-                        <label class="label-phone" for="phone">Phone:</label>
-                        <input type="tel" id="phone" name="phone"><br><br>
-                        
-                        <label class="label-email" for="email">Email:</label>
-                        <input type="email" id="email" name="email"><br><br>
-                        
-                        <input  type="submit" class="input-submit" value="Submit Application">
-                      </form>
-                </div>
-            </div>
-        </section>
-
-        <section id="Certificates" class="certificates">
-            <div class="certificates-maincontainer">
-                <h1 class="certificates-title">YOU CAN ORDER GIFT CERTIFICATES</h1>
-                <p class="certificates-undertitle">We appreciate your time. Because we know how
-                    difficult it is to set aside a few hours for self care.
-                </p>
-                <p class="certifficate-get">Get certifficate</p>
-            </div>
+            <div class="container">
+                <h1 class="form-title">Leave your application</h1>
+                <form action="#">
+                  <div class="main-user-info">
+                    <div class="user-input-box">
+                      <label for="fullName">Full Name</label>
+                      <input type="text"
+                              id="fullName"
+                              name="fullName"
+                              placeholder="Enter Full Name"/>
+                    </div>
+                    <div class="user-input-box">
+                      <label for="email">Email</label>
+                      <input type="email"
+                              id="email"
+                              name="email"
+                              placeholder="Enter Email"/>
+                    </div>
+                    <div class="user-input-box">
+                      <label for="phoneNumber">Phone Number</label>
+                      <input type="text"
+                              id="phoneNumber"
+                              name="phoneNumber"
+                              placeholder="Enter Phone Number"/>
+                    </div>
+                  </div>
+                  <div class="gender-details-box">
+                    <span class="gender-title">Gender</span>
+                    <div class="gender-category">
+                      <input type="radio" name="gender" id="male">
+                      <label for="male">Male</label>
+                      <input type="radio" name="gender" id="female">
+                      <label for="female">Female</label>
+                      <input type="radio" name="gender" id="other">
+                      <label for="other">Other</label>
+                    </div>
+                  </div>
+                  <div class="form-submit-btn">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
         </section>
     </main>
     <footer class="footer-distributed">
@@ -211,4 +231,3 @@
     </script>
 </body>
 </html>
-
